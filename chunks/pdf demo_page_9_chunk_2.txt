@@ -1,0 +1,23 @@
+inusoids
+4.92
+25.7
+big
+6
+1024
+4096
+16
+0.3
+300K
+4.33
+26.4
+213
+development set, newstest2013. We used beam search as described in the previous section, but no
+checkpoint averaging. We present these results in Table 3.
+In Table 3 rows (A), we vary the number of attention heads and the attention key and value dimensions,
+keeping the amount of computation constant, as described in Section 3.2.2. While single-head
+attention is 0.9 BLEU worse than the best setting, quality also drops off with too many heads.
+In Table 3 rows (B), we observe that reducing the attention key size dk hurts model quality. This
+suggests that determining compatibility is not easy and that a more sophisticated compatibility
+function than dot product may be beneficial. We further observe in rows (C) and (D) that, as expected,
+bigger models are better, and dropout is very helpful in avoiding over-fitting. In row (E) we replace our
+sinusoidal positional encoding with learned positional embeddings [9], and observe nearly 

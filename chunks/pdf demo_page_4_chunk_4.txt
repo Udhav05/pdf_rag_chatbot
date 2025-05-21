@@ -1,0 +1,3 @@
+les with mean 0 and variance 1. Then their dot product, q · k = Pdk
+i=1 qiki, has mean 0 and variance dk.
+4

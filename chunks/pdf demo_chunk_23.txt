@@ -1,0 +1,12 @@
+tput sequences, the easier it is to learn long-range dependencies [12]. Hence we also compare
+the maximum path length between any two input and output positions in networks composed of the
+different layer types.
+As noted in Table 1, a self-attention layer connects all positions with a constant number of sequentially
+executed operations, whereas a recurrent layer requires O(n) sequential operations. In terms of
+computational complexity, self-attention layers are faster than recurrent layers when the sequence
+6
+length n is smaller than the representation dimensionality d, which is most often the case with
+sentence representations used by state-of-the-art models in machine translations, such as word-piece
+[38] and byte-pair [31] representations. To improve computational performance for tasks involving
+very long sequences, self-attention could be restricted to considering only a neighborhood of size r in
+the input sequence centered around the respective output position. This would increase

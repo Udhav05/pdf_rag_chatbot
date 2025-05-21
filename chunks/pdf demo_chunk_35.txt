@@ -1,0 +1,37 @@
+abulary of 16K tokens for the WSJ only setting and a vocabulary of 32K tokens
+for the semi-supervised setting.
+We performed only a small number of experiments to select the dropout, both attention and residual
+(section 5.4), learning rates and beam size on the Section 22 development set, all other parameters
+remained unchanged from the English-to-German base translation model. During inference, we
+9
+Table 4: The Transformer generalizes well to English constituency parsing (Results are on Section 23
+of WSJ)
+Parser
+Training
+WSJ 23 F1
+Vinyals & Kaiser el al. (2014) [37]
+WSJ only, discriminative
+88.3
+Petrov et al. (2006) [29]
+WSJ only, discriminative
+90.4
+Zhu et al. (2013) [40]
+WSJ only, discriminative
+90.4
+Dyer et al. (2016) [8]
+WSJ only, discriminative
+91.7
+Transformer (4 layers)
+WSJ only, discriminative
+91.3
+Zhu et al. (2013) [40]
+semi-supervised
+91.3
+Huang & Harper (2009) [14]
+semi-supervised
+91.3
+McClosky et al. (2006) [26]
+semi-supervised
+92.1
+Vinyals & Kaiser el al. (2014) [37]
+semi

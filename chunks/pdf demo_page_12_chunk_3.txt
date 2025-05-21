@@ -1,0 +1,13 @@
+opout: a simple way to prevent neural networks from overfitting. Journal of Machine
+Learning Research, 15(1):1929–1958, 2014.
+[34] Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, and Rob Fergus. End-to-end memory
+networks. In C. Cortes, N. D. Lawrence, D. D. Lee, M. Sugiyama, and R. Garnett, editors,
+Advances in Neural Information Processing Systems 28, pages 2440–2448. Curran Associates,
+Inc., 2015.
+[35] Ilya Sutskever, Oriol Vinyals, and Quoc VV Le. Sequence to sequence learning with neural
+networks. In Advances in Neural Information Processing Systems, pages 3104–3112, 2014.
+[36] Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, and Zbigniew Wojna.
+Rethinking the inception architecture for computer vision. CoRR, abs/1512.00567, 2015.
+[37] Vinyals & Kaiser, Koo, Petrov, Sutskever, and Hinton. Grammar as a foreign language. In
+Advances in Neural Information Processing Systems, 2015.
+[38] Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V Le, Mohammad Norouzi, Wolfgan

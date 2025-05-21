@@ -1,0 +1,88 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f8;
+}
+
+.app {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.upload-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.upload-label {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.upload-label input {
+  display: none;
+}
+
+.chat-container {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.message {
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  max-width: 70%;
+}
+
+.message.user {
+  background-color: #4a90e2;
+  color: white;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.message.bot {
+  background-color: #e2e2e2;
+  color: #333;
+}
+
+.query-form {
+  display: flex;
+  gap: 10px;
+}
+
+.query-form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.query-form button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

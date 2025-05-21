@@ -1,0 +1,6 @@
+ step number. We used
+warmup_steps = 4000.
+5.4
+Regularization
+We employ three types of regularization during training:
+7
